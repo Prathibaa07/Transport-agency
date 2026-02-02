@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FastTrack Transport Agency</title>
+
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+        }
+
+        .navbar{
+            background-color: #003366;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar a{
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        .navbar a:hover{
+            text-decoration: underline;
+        }
+
+        .hero{
+            background-color: #85bdf9;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h1{
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+
+        .hero p{
+            font-size: 20px;
+        }
+
+        .section{
+            background-color: white;
+            margin: 30px auto;
+            padding: 30px;
+            width: 85%;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .services{
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .service-card{
+            background-color: #f8f9fa;
+            padding: 20px;
+            width: 250px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        input, select{
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+
+        button{
+            width: 100%;
+            padding: 12px;
+            background-color: #003366;
+            color: white;
+            border: none;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: #0055aa;
+        }
+
+        footer{
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        .hero{
+            background-image: url("images/transport-banner.jpg");
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .service-img{
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+<div class="navbar">
+    <h2>🚍 FastTrack Transport</h2>
+    <div>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#booking">Booking</a>
+        <a href="#contact">Contact</a>
+    </div>
+</div>
+
+<div class="hero">
+    <h1>Fast & Safe Transport Services</h1>
+    <p>Your trusted transport partner for goods & travel</p>
+</div>
+
+<div class="section" id="about">
+    <h2>About Our Agency</h2>
+    <p>
+        FastTrack Transport Agency provides reliable and affordable transport
+        services across cities. We ensure safety, punctuality, and customer
+        satisfaction in every trip.
+    </p>
+</div>
+
+<div class="services">
+
+    <div class="service-card">
+        <img src="Truck.png" class="service-img">
+        <h3>🚚 Goods Transport</h3>
+        <p>Safe and fast delivery of goods.</p>
+    </div>
+
+    <div class="service-card">
+        <img src="Bus.png" class="service-img">
+        <h3>🚌 Passenger Travel</h3>
+        <p>Comfortable travel for people.</p>
+    </div>
+
+    <div class="service-card">
+        <img src="Logistics.png" class="service-img">
+        <h3>📦 Logistics</h3>
+        <p>End-to-end logistics solutions.</p>
+    </div>
+
+</div>
+
+<div class="section" id="booking">
+    <h2>Book Your Transport</h2>
+
+    <form>
+        <input type="text" placeholder="Your Name">
+        <input type="text" placeholder="Pickup Location">
+        <input type="text" placeholder="Drop Location">
+
+        <select>
+            <option>Select Service</option>
+            <option>Goods Transport</option>
+            <option>Passenger Travel</option>
+            <option>Logistics</option>
+        </select>
+
+        <button>Book Now</button>
+    </form>
+</div>
+
+<div class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p><b>📞 Phone:</b> +91 9876543210</p>
+    <p><b>📧 Email:</b> fasttracktransport@gmail.com</p>
+    <p><b>📍 Address:</b> Thoothukudi, Tamil Nadu</p>
+</div>
+
+<footer>
+    © 2026 FastTrack Transport Agency | All Rights Reserved
+</footer>
+
+</body>
+</html>
